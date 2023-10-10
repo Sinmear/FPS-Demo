@@ -1,0 +1,38 @@
+{
+  "_$ver": 1,
+  "_$id": "rsmw2vh6",
+  "_$type": "Box",
+  "name": "PcOpenration",
+  "width": 1280,
+  "height": 720,
+  "mouseEnabled": true,
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "_$comp": [
+    {
+      "_$type": "1de0e0f5-fad4-4f77-9ad1-b1e05878f502",
+      "scriptPath": "../src/Scripts/Player/PcOperation.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "ixvc7f92",
+      "_$type": "Button",
+      "name": "DragBtn",
+      "width": 1280,
+      "height": 720,
+      "alpha": 0,
+      "mouseEnabled": true,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://31e1ad47-d655-49f6-a9c5-4a8b44268066",
+      "label": "",
+      "labelSize": 20,
+      "labelVAlign": "middle"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "_$ver": 1,
+  "_$id": "mjckfkgi",
+  "_$type": "Sprite3D",
+  "name": "Particle System",
+  "active": false,
+  "transform": {
+    "localPosition": {
+      "_$type": "Vector3",
+      "x": -0.02239987,
+      "y": -0.9205139,
+      "z": 0.157997
+    },
+    "localRotation": {
+      "_$type": "Quaternion",
+      "y": 0.7071067811865476,
+      "w": -0.7071067811865476
+    }
+  },
+  "_$comp": [
+    {
+      "_$type": "ShurikenParticleRenderer",
+      "sharedMaterials": [
+        {
+          "_$uuid": "085d2c3a-a390-4d4e-8792-ac30c83597e5",
+          "_$type": "Material"
+        }
+      ],
+      "renderMode": 4,
+      "mesh": {
+        "_$uuid": "4e836f63-16bc-4e02-853f-eb17b3b38c07",
+        "_$type": "Mesh"
+      },
+      "_particleSystem": {
+        "_isPlaying": true,
+        "looping": false,
+        "playOnAwake": false,
+        "startSpeedType": 2,
+        "startSpeedConstant": 1.2,
+        "startSpeedConstantMin": 0.8,
+        "startSpeedConstantMax": 1.2,
+        "startSizeConstantSeparate": {
+          "_$type": "Vector3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "startSizeConstantMinSeparate": {
+          "_$type": "Vector3"
+        },
+        "startSizeConstantMaxSeparate": {
+          "_$type": "Vector3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "startRotationConstant": -1.570796,
+        "startRotationConstantMax": -1.570796,
+        "startRotationConstantSeparate": {
+          "_$type": "Vector3",
+          "z": 1.570796
+        },
+        "startRotationConstantMinSeparate": {
+          "_$type": "Vector3"
+        },
+        "startRotationConstantMaxSeparate": {
+          "_$type": "Vector3",
+          "z": 1.570796
+        },
+        "startColorConstant": {
+          "_$type": "Vector4",
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": 1
+        },
+        "startColorConstantMin": {
+          "_$type": "Vector4"
+        },
+        "startColorConstantMax": {
+          "_$type": "Vector4",
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": 1
+        },
+        "gravityModifier": 0.8,
+        "scaleMode": 0,
+        "maxParticles": 1000,
+        "randomSeed": {
+          "_$type": "Uint32Array",
+          "value": [
+            1393931000
+          ]
+        },
+        "emission": {
+          "emissionRate": 0,
+          "_bursts": [
+            {
+              "_$type": "Burst",
+              "_maxCount": 1
+            }
+          ]
+        },
+        "shape": {
+          "_$type": "BoxShape",
+          "x": 0,
+          "y": 0,
+          "z": 0.1
+        },
+        "velocityOverLifetime": {
+          "_$type": "VelocityOverLifetime",
+          "enable": true,
+          "_velocity": {
+            "_$type": "GradientVelocity",
+            "_type": 0,
+            "_constant": {
+              "_$type": "Vector3",
+              "x": -0.3,
+              "y": 1,
+              "z": 0.5
+            }
+          },
+          "space": 0
+        },
+        "sizeOverLifetime": {
+          "_$type": "SizeOverLifetime",
+          "enable": true,
+          "_size": {
+            "_$type": "GradientSize",
+            "_gradient": {
+              "_$type": "GradientDataNumber",
+              "_elements": {
+                "_$type": "Float32Array",
+                "value": [
+                  0,
+                  1,
+                  0.9007632732391357,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "_currentLength": 6
+            }
+          }
+        },
+        "rotationOverLifetime": {
+          "_$type": "RotationOverLifetime",
+          "enable": true,
+          "_angularVelocity": {
+            "_$type": "GradientAngularVelocity",
+            "_type": 2,
+            "_constant": 0,
+            "_constantMin": -3.141593,
+            "_constantMax": 3.141593
+          }
+        }
+      }
+    }
+  ]
+}

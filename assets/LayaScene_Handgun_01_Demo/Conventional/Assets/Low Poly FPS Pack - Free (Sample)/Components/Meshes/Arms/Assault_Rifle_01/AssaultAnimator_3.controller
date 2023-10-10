@@ -1,0 +1,634 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "path": "",
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "0",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85
+            }
+          ]
+        },
+        {
+          "y": 42.7066854384068,
+          "id": "-2",
+          "name": "任何状态",
+          "x": -7.517635658132278,
+          "soloTransitions": []
+        },
+        {
+          "x": -78.39032857043888,
+          "y": 197.6213135744665,
+          "_isLooping": 2,
+          "id": "0",
+          "name": "TakeOut",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "8b1d6fbe-6710-4e8f-88c6-7903573254f7"
+          },
+          "soloTransitions": [
+            {
+              "id": "10",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85
+            }
+          ]
+        },
+        {
+          "x": 199.68210551242436,
+          "y": 334.89355828908407,
+          "_isLooping": 1,
+          "id": "9",
+          "name": "fire01",
+          "speed": 15,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "e6e111f9-79f3-4290-9933-31c312c09136"
+          },
+          "soloTransitions": [
+            {
+              "id": "10",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 3,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 4,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 62.644766136144426,
+          "y": 204.89007106384855,
+          "_isLooping": 1,
+          "id": "10",
+          "name": "idle01 0",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "1f46c8e7-62ce-4084-bf51-780b2e0fcdbe"
+          },
+          "soloTransitions": [
+            {
+              "id": "9",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 2,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 4,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 191.13881035039992,
+          "y": 51.149540809534216,
+          "_isLooping": 1,
+          "id": "5",
+          "name": "walk01",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "d43596a1-310c-4ac6-acce-c37c39714f70"
+          },
+          "soloTransitions": [
+            {
+              "id": "6",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 3,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "9",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 2,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 4,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 339.292011686993,
+          "y": 51.356035799799386,
+          "_isLooping": 1,
+          "id": "6",
+          "name": "run01",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "a8b109e1-da05-4445-a74b-838c8b3a1ab6"
+          },
+          "soloTransitions": [
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 3,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "9",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 2,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 4,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 454.38361251745516,
+          "y": 173.01992543241957,
+          "_isLooping": 2,
+          "id": "1",
+          "name": "reload_left01",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "ff243c54-fd0f-498e-9a23-703d16186694"
+          },
+          "soloTransitions": [
+            {
+              "id": "2",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 1,
+                  "id": 5
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 3,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "9",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 2,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 443.2725005402284,
+          "y": 225.4289046113878,
+          "_isLooping": 2,
+          "id": "2",
+          "name": "reload_out_of01",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "13183817-3129-478f-b045-2196888260f3"
+          },
+          "soloTransitions": [
+            {
+              "id": "10",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 3,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "5",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "exitByTime": false,
+              "transduration": 0,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 515.1076959287882,
+          "y": 355.8697661248864,
+          "_isLooping": 2,
+          "id": "3",
+          "name": "aim_in01",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "d96a2e7e-d505-4658-80aa-74fcea0e5c0c"
+          },
+          "soloTransitions": [
+            {
+              "id": "8",
+              "exitByTime": true,
+              "transduration": 0.15,
+              "exitTime": 0.85
+            }
+          ]
+        },
+        {
+          "x": 356.77427205119574,
+          "y": 334.3407874600727,
+          "_isLooping": 2,
+          "id": "4",
+          "name": "aim_out01",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "c1828ab0-af6b-45ac-af1b-82d612a26306"
+          },
+          "soloTransitions": [
+            {
+              "id": "10",
+              "exitByTime": true,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 3,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "5",
+              "exitByTime": true,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "exitByTime": true,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 283.5794951361451,
+          "y": 431.63216895190556,
+          "_isLooping": 1,
+          "id": "7",
+          "name": "aim_fire01",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "00abf294-7918-4575-9202-65b9b4376a82"
+          },
+          "soloTransitions": [
+            {
+              "id": "8",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 2,
+                  "checkValue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 433.37164461414324,
+          "y": 431.07674686066997,
+          "_isLooping": 0,
+          "id": "8",
+          "name": "aim_fire_pose01",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "9d5730ef-8662-4ebc-b4fb-03f85ceec8c9"
+          },
+          "soloTransitions": [
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 4,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1,
+      "stageX": 64.57688840466014,
+      "stageY": -15.330405248168901,
+      "stageScale": 0.40000000000000013
+    }
+  ],
+  "layerW": 150,
+  "animatorParams": [
+    {
+      "id": 0,
+      "name": "IsWalking",
+      "type": 1,
+      "val": false
+    },
+    {
+      "id": 1,
+      "name": "IsRunning",
+      "type": 1,
+      "val": false
+    },
+    {
+      "id": 2,
+      "name": "IsFiring",
+      "type": 1,
+      "val": false
+    },
+    {
+      "id": 3,
+      "name": "IsIdle",
+      "type": 1,
+      "val": false
+    },
+    {
+      "id": 6,
+      "name": "FirstIn",
+      "type": 2,
+      "val": 0
+    },
+    {
+      "id": 4,
+      "name": "IsReload",
+      "type": 1,
+      "val": false
+    },
+    {
+      "id": 5,
+      "name": "ReloadType",
+      "type": 0,
+      "val": 0
+    },
+    {
+      "id": 7,
+      "name": "IsAim",
+      "type": 1,
+      "val": false
+    }
+  ]
+}

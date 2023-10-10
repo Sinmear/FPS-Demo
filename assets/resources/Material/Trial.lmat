@@ -1,0 +1,48 @@
+{
+  "version": "LAYAMATERIAL:04",
+  "props": {
+    "textures": [
+      {
+        "path": "res://10ef5803-0266-4f6d-8cb9-576e8dc13bed",
+        "constructParams": [
+          200,
+          20,
+          1,
+          false,
+          false,
+          true
+        ],
+        "propertyParams": {
+          "filterMode": 1,
+          "wrapModeU": 1,
+          "wrapModeV": 1,
+          "anisoLevel": 4
+        },
+        "name": "u_MainTexture"
+      }
+    ],
+    "type": "Trail",
+    "renderQueue": 3000,
+    "materialRenderMode": 3,
+    "s_Cull": 0,
+    "s_Blend": 1,
+    "s_BlendSrc": 6,
+    "s_BlendDst": 1,
+    "s_BlendSrcRGB": 1,
+    "s_BlendDstRGB": 0,
+    "s_BlendSrcAlpha": 1,
+    "s_BlendDstAlpha": 0,
+    "s_DepthTest": 1,
+    "s_DepthWrite": false,
+    "u_MainColor": [
+      0.8791763425906376,
+      0.24643916310763764,
+      0.24643916310763764,
+      0.7843137254901961
+    ],
+    "defines": [
+      "ADDTIVEFOG",
+      "MAINTEXTURE"
+    ]
+  }
+}

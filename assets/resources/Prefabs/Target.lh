@@ -1,0 +1,118 @@
+{
+  "_$ver": 1,
+  "_$id": "z6alfz52",
+  "_$type": "Sprite3D",
+  "name": "Target 1",
+  "transform": {
+    "localScale": {
+      "_$type": "Vector3",
+      "x": 2,
+      "y": 2,
+      "z": 2
+    }
+  },
+  "_$child": [
+    {
+      "_$id": "6nvf8r59",
+      "_$type": "Sprite3D",
+      "name": "Target",
+      "layer": 4,
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "sharedMesh": {
+            "_$uuid": "8b6c446c-2803-4ae3-b3d7-2855df82c7b6",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "receiveShadow": true,
+          "castShadow": true,
+          "sharedMaterials": [
+            {
+              "_$uuid": "fce49956-ba94-45c6-b402-d102822fd7fa",
+              "_$type": "Material"
+            }
+          ]
+        },
+        {
+          "_$type": "PhysicsCollider",
+          "colliderShape": {
+            "_$type": "MeshColliderShape",
+            "mesh": {
+              "_$uuid": "8b6c446c-2803-4ae3-b3d7-2855df82c7b6",
+              "_$type": "Mesh"
+            }
+          }
+        },
+        {
+          "_$type": "64ed3861-0848-415d-8b47-83e775f04508",
+          "scriptPath": "../src/Scripts/Enemy/Target.ts",
+          "isStatic": null,
+          "leftPos": 2.7,
+          "rightPos": -2.7,
+          "isMoveLeft": null
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "qfy7aezx",
+          "_$type": "Sprite3D",
+          "name": "Head",
+          "layer": 4,
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": 8.493661880493164e-7,
+              "y": 0.5694454908370972,
+              "z": 9.57399606704712e-7
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.15000000596046448,
+              "y": 0.15000000596046448,
+              "z": 0.15000000596046448
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "PhysicsCollider",
+              "colliderShape": {
+                "_$type": "SphereColliderShape"
+              }
+            }
+          ]
+        },
+        {
+          "_$id": "qf5c4yv9",
+          "_$type": "Sprite3D",
+          "name": "Body",
+          "layer": 4,
+          "transform": {
+            "localPosition": {
+              "_$type": "Vector3",
+              "x": 8.493661880493164e-7,
+              "y": 0.2955498695373535,
+              "z": 9.57399606704712e-7
+            },
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.2199999988079071,
+              "y": 0.2199999988079071,
+              "z": 0.2199999988079071
+            }
+          },
+          "_$comp": [
+            {
+              "_$type": "PhysicsCollider",
+              "colliderShape": {
+                "_$type": "SphereColliderShape"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

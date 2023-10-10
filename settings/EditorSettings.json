@@ -1,0 +1,9 @@
+{
+  "layers": [
+    "Ground",
+    "Water",
+    "Player",
+    "Enemy",
+    "Layer5"
+  ]
+}

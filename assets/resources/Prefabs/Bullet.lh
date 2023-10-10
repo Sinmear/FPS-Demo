@@ -1,0 +1,54 @@
+{
+  "_$ver": 1,
+  "_$id": "p6awcl8g",
+  "_$type": "Sprite3D",
+  "name": "Bullet",
+  "transform": {
+    "localRotation": {
+      "_$type": "Quaternion",
+      "y": 1,
+      "w": 6.123233995736766e-17
+    }
+  },
+  "_$comp": [
+    {
+      "_$type": "297140af-b3c1-42c5-81d2-5240b61920b2",
+      "scriptPath": "../src/Scripts/Weapon/Bullet.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "r1y12m6s",
+      "_$type": "Sprite3D",
+      "name": "Sphere",
+      "transform": {
+        "localScale": {
+          "_$type": "Vector3",
+          "x": 0.05,
+          "y": 0.05,
+          "z": 0.05
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "MeshFilter",
+          "enabled": false,
+          "sharedMesh": {
+            "_$uuid": "f1e48cc9-d67d-4196-92dd-77d9ee2f076c",
+            "_$type": "Mesh"
+          }
+        },
+        {
+          "_$type": "MeshRenderer",
+          "enabled": false,
+          "sharedMaterials": [
+            {
+              "_$uuid": "615c8dc1-6f53-4928-90d6-170c6d2938f0",
+              "_$type": "Material"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "resolution": {
+    "designWidth": 1280,
+    "designHeight": 720,
+    "screenMode": "horizontal"
+  },
+  "3D": {
+    "lightClusterCount": {
+      "x": 12,
+      "y": 12,
+      "z": 12
+    }
+  },
+  "modules": {
+    "laya.d3": true,
+    "laya.ui": true,
+    "laya.ani": true,
+    "laya.physics3D": true,
+    "laya.physics": true,
+    "laya.physics3D.wasm": true
+  },
+  "splash": {
+    "fit": "center"
+  }
+}

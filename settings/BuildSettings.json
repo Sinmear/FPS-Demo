@@ -1,0 +1,10 @@
+{
+  "name": "FPS Demo",
+  "startupScene": "res://cd720c53-efe1-4910-92c3-7d547f7fc799",
+  "includedScenes": [],
+  "android": {
+    "standalone": true,
+    "appName": "FPS Demo",
+    "screenOrientation": "landscape"
+  }
+}

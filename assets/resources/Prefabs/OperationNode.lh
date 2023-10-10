@@ -1,0 +1,341 @@
+{
+  "_$ver": 1,
+  "_$id": "e4zanb9d",
+  "_$type": "Box",
+  "name": "OperationNode",
+  "width": 1280,
+  "height": 720,
+  "mouseEnabled": true,
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "_$comp": [
+    {
+      "_$type": "2c9b02c6-fe1f-4c09-bcb7-cc0f225c0c76",
+      "scriptPath": "../src/Scripts/Player/MobileOperation.ts"
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "wxb0a9vi",
+      "_$type": "Button",
+      "name": "DragBtn",
+      "width": 1280,
+      "height": 720,
+      "alpha": 0,
+      "mouseEnabled": true,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "skin": "res://31e1ad47-d655-49f6-a9c5-4a8b44268066",
+      "label": "",
+      "labelSize": 20,
+      "labelVAlign": "middle"
+    },
+    {
+      "_$id": "qb3u0sma",
+      "_$type": "Button",
+      "name": "ShootBtn",
+      "x": 1149,
+      "y": 658,
+      "width": 150,
+      "height": 150,
+      "anchorX": 1,
+      "anchorY": 1,
+      "mouseEnabled": true,
+      "right": 131,
+      "bottom": 62,
+      "skin": "res://393d37e9-00a4-46c5-990a-0e13b31d1d7c",
+      "label": "",
+      "labelSize": 20,
+      "labelVAlign": "middle",
+      "_$child": [
+        {
+          "_$id": "y8xh0bns",
+          "_$type": "Sprite",
+          "name": "Sprite",
+          "x": 77,
+          "y": 74,
+          "width": 56,
+          "height": 87,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "texture": {
+            "_$uuid": "01424329-d822-4e34-b8b2-e6ad79d54954",
+            "_$type": "Texture"
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "ig74bxt2",
+      "_$type": "Button",
+      "name": "JumpBtn",
+      "x": 1115,
+      "y": 474,
+      "width": 120,
+      "height": 120,
+      "anchorX": 1,
+      "anchorY": 1,
+      "scaleX": 0.7,
+      "scaleY": 0.7,
+      "mouseEnabled": true,
+      "right": 165,
+      "bottom": 246,
+      "skin": "res://393d37e9-00a4-46c5-990a-0e13b31d1d7c",
+      "label": "",
+      "labelSize": 20,
+      "labelVAlign": "middle",
+      "_$child": [
+        {
+          "_$id": "ivk7au0v",
+          "_$type": "Sprite",
+          "name": "Sprite",
+          "x": 64,
+          "y": 60,
+          "width": 38,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "texture": {
+            "_$uuid": "4fb3c10a-df01-48d7-a8b0-21252414d63f",
+            "_$type": "Texture"
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "14rorvgo",
+      "_$type": "Button",
+      "name": "RunBtn",
+      "x": 1251,
+      "y": 519,
+      "width": 120,
+      "height": 120,
+      "anchorX": 1,
+      "anchorY": 1,
+      "scaleX": 0.7,
+      "scaleY": 0.7,
+      "mouseEnabled": true,
+      "right": 29,
+      "bottom": 201,
+      "skin": "res://393d37e9-00a4-46c5-990a-0e13b31d1d7c",
+      "label": "",
+      "labelSize": 20,
+      "labelVAlign": "middle",
+      "_$child": [
+        {
+          "_$id": "lxqsjasf",
+          "_$type": "Sprite",
+          "name": "Sprite",
+          "x": 61,
+          "y": 63,
+          "width": 68,
+          "height": 68,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "texture": {
+            "_$uuid": "06ac59c3-a02e-4f4e-bfc8-5595957cdccf",
+            "_$type": "Texture"
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "17jmmlcv",
+      "_$type": "Button",
+      "name": "AimBtn",
+      "x": 987,
+      "y": 541,
+      "width": 120,
+      "height": 120,
+      "anchorX": 1,
+      "anchorY": 1,
+      "scaleX": 0.7,
+      "scaleY": 0.7,
+      "mouseEnabled": true,
+      "right": 293,
+      "bottom": 179,
+      "skin": "res://393d37e9-00a4-46c5-990a-0e13b31d1d7c",
+      "label": "",
+      "labelSize": 20,
+      "labelVAlign": "middle",
+      "_$child": [
+        {
+          "_$id": "9grnsnx1",
+          "_$type": "Sprite",
+          "name": "Sprite",
+          "x": 60,
+          "y": 60,
+          "width": 100,
+          "height": 100,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "texture": {
+            "_$uuid": "5e32d7a1-d3c0-436a-8f05-f0b44806f1c3",
+            "_$type": "Texture"
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "92xbv325",
+      "_$type": "Button",
+      "name": "ReloadBtn",
+      "x": 957,
+      "y": 678,
+      "width": 120,
+      "height": 120,
+      "anchorX": 1,
+      "anchorY": 1,
+      "scaleX": 0.7,
+      "scaleY": 0.7,
+      "mouseEnabled": true,
+      "right": 323,
+      "bottom": 42,
+      "skin": "res://393d37e9-00a4-46c5-990a-0e13b31d1d7c",
+      "label": "",
+      "labelSize": 20,
+      "labelVAlign": "middle",
+      "_$child": [
+        {
+          "_$id": "jloirug9",
+          "_$type": "Sprite",
+          "name": "Sprite",
+          "x": 60,
+          "y": 60,
+          "width": 80,
+          "height": 80,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "texture": {
+            "_$uuid": "c85ad282-746d-4121-bcd1-c3ec46431e3c",
+            "_$type": "Texture"
+          }
+        },
+        {
+          "_$id": "xb5plkqa",
+          "_$type": "Sprite",
+          "name": "Sprite(1)",
+          "x": 60,
+          "y": 60,
+          "width": 109,
+          "height": 87,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "scaleX": 0.4,
+          "scaleY": 0.4,
+          "rotation": -12,
+          "texture": {
+            "_$uuid": "0220a8a2-537a-4103-85c8-57ae09ad2ef5",
+            "_$type": "Texture"
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "tpgrb1fn",
+      "_$type": "Button",
+      "name": "ShootBtn2",
+      "x": 46,
+      "y": 443,
+      "width": 150,
+      "height": 150,
+      "anchorY": 1,
+      "scaleX": 0.85,
+      "scaleY": 0.85,
+      "mouseEnabled": true,
+      "left": 46,
+      "bottom": 277,
+      "skin": "res://393d37e9-00a4-46c5-990a-0e13b31d1d7c",
+      "label": "",
+      "labelSize": 20,
+      "labelVAlign": "middle",
+      "_$child": [
+        {
+          "_$id": "it5lj145",
+          "_$type": "Sprite",
+          "name": "Sprite",
+          "x": 77,
+          "y": 74,
+          "width": 56,
+          "height": 87,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "scaleX": -1,
+          "texture": {
+            "_$uuid": "01424329-d822-4e34-b8b2-e6ad79d54954",
+            "_$type": "Texture"
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "0uckxvln",
+      "_$type": "Box",
+      "name": "rokerbox",
+      "x": 111,
+      "y": 668,
+      "width": 271.99999999999926,
+      "height": 272,
+      "anchorY": 1,
+      "scaleX": 0.7,
+      "scaleY": 0.7,
+      "mouseEnabled": true,
+      "left": 111,
+      "bottom": 52,
+      "_$comp": [
+        {
+          "_$type": "878d6851-b60e-43e5-a038-f52da3188b5e",
+          "scriptPath": "../src/Scripts/Component/Roker.ts"
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "5dh5af12",
+          "_$type": "Image",
+          "name": "freetrack",
+          "width": 272,
+          "height": 272,
+          "mouseEnabled": true,
+          "skin": "res://4e13d495-00df-4c68-b167-f6ffcc1c8dae",
+          "color": "#ffffff"
+        },
+        {
+          "_$id": "ug3knfr6",
+          "_$type": "Button",
+          "name": "freebar",
+          "x": 137,
+          "y": 136,
+          "width": 118,
+          "height": 118,
+          "anchorX": 0.5,
+          "anchorY": 0.5,
+          "mouseEnabled": true,
+          "hitArea": {
+            "_$type": "HitArea",
+            "_hitCmds": [
+              {
+                "_$type": "DrawCircleCmd",
+                "x": 0.5,
+                "y": 0.5,
+                "radius": 1.13,
+                "percent": true,
+                "lineWidth": 0
+              }
+            ]
+          },
+          "centerX": 1,
+          "centerY": 0,
+          "stateNum": 1,
+          "skin": "res://4723899a-e996-40eb-a02d-0ba4fb2d419c",
+          "label": "",
+          "labelSize": 20,
+          "labelVAlign": "middle"
+        }
+      ]
+    }
+  ]
+}

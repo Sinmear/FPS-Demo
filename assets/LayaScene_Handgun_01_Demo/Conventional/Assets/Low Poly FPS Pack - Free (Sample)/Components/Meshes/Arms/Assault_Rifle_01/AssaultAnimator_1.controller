@@ -1,0 +1,429 @@
+{
+  "_$type": "Animator",
+  "enabled": true,
+  "path": "",
+  "cullingMode": 2,
+  "controllerLayers": [
+    {
+      "name": "Base Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "id": "-1",
+          "name": "进入",
+          "nexts": [],
+          "soloTransitions": [
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "id": "-2",
+          "name": "任何状态",
+          "x": 336,
+          "soloTransitions": [
+            {
+              "id": "0",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 218.2554584128979,
+          "y": 160.00435687272721,
+          "_isLooping": 2,
+          "id": "0",
+          "name": "TakeOut",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "794cfec6-46b4-45ef-a809-664b9c98c55d"
+          },
+          "soloTransitions": [
+            {
+              "id": "1",
+              "exitByTime": true,
+              "transduration": 0.15,
+              "exitTime": 0.85
+            }
+          ]
+        },
+        {
+          "x": 143.7444425169114,
+          "y": 243.48147011582375,
+          "_isLooping": 1,
+          "id": "1",
+          "name": "Idle",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "9a70b920-de2b-4b52-bfe3-25d4e1d59b89"
+          },
+          "soloTransitions": [
+            {
+              "id": "4",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 2,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "3",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 323.54457524108017,
+          "y": 339.53389009317874,
+          "_isLooping": 1,
+          "id": "2",
+          "name": "Run",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "424cba7d-2351-4fcb-b3a5-00623ee8a8ed"
+          },
+          "soloTransitions": [
+            {
+              "id": "4",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 2,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1
+                }
+              ]
+            },
+            {
+              "id": "3",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0,
+                  "checkValue": true
+                }
+              ],
+              "transstartoffset": 0
+            }
+          ]
+        },
+        {
+          "x": 318.63716205341075,
+          "y": 238.86161752379294,
+          "_isLooping": 1,
+          "id": "3",
+          "name": "Walk",
+          "speed": 0.75,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "36bfe4c6-65a5-46c1-8452-79c0227ae8e0"
+          },
+          "soloTransitions": [
+            {
+              "id": "4",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 2,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1,
+                  "checkValue": true
+                }
+              ],
+              "transstartoffset": 0
+            },
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 97.65380985882305,
+          "y": 353.9751774487923,
+          "_isLooping": 1,
+          "id": "4",
+          "name": "Fire",
+          "speed": 15,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "073f4b70-9ce9-47b5-9a78-521713adc883"
+          },
+          "soloTransitions": [
+            {
+              "id": "2",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 1,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "3",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 0,
+                  "checkValue": true
+                }
+              ]
+            },
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 3,
+                  "checkValue": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "playOnWake": true,
+      "blendingMode": 0,
+      "defaultWeight": 1,
+      "stageX": 5.587820555408953,
+      "stageY": -82.50489996781577,
+      "stageScale": 0.8
+    },
+    {
+      "playOnWake": false,
+      "blendingMode": 0,
+      "name": "Reload Layer",
+      "states": [
+        {
+          "x": 10,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-1",
+          "name": "进入",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "0"
+            }
+          ]
+        },
+        {
+          "x": 337,
+          "y": 100,
+          "_isLooping": 0,
+          "id": "-2",
+          "name": "任何状态",
+          "speed": 1,
+          "clipEnd": 1,
+          "soloTransitions": [
+            {
+              "id": "1",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 4
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "exitByTime": false,
+              "transduration": 0.15,
+              "exitTime": 0.85,
+              "conditions": [
+                {
+                  "type": 0,
+                  "id": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 119.01515870821042,
+          "y": 113.01099985897616,
+          "_isLooping": 0,
+          "id": "0",
+          "name": "Idle",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "9a70b920-de2b-4b52-bfe3-25d4e1d59b89"
+          }
+        },
+        {
+          "x": 222.18375115926966,
+          "y": 81.34341969574109,
+          "_isLooping": 0,
+          "id": "1",
+          "name": "Left",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "0f7c1b73-0a69-4520-b300-993d6166a7d3"
+          },
+          "soloTransitions": []
+        },
+        {
+          "x": 223.18376903716364,
+          "y": 162.84584045797487,
+          "_isLooping": 0,
+          "id": "2",
+          "name": "Outof",
+          "speed": 1,
+          "clipEnd": 1,
+          "clip": {
+            "_$uuid": "402acd10-6e5e-4e73-b3e7-790b224683f5"
+          },
+          "soloTransitions": []
+        }
+      ],
+      "defaultWeight": 0,
+      "stageX": 25.85819688503014,
+      "stageY": 7.85079737903528,
+      "stageScale": 0.9
+    }
+  ],
+  "layerW": 150,
+  "animatorParams": [
+    {
+      "id": 0,
+      "name": "IsWalking",
+      "type": 1,
+      "val": false
+    },
+    {
+      "id": 1,
+      "name": "IsRunning",
+      "type": 1,
+      "val": false
+    },
+    {
+      "id": 2,
+      "name": "IsFiring",
+      "type": 1,
+      "val": false
+    },
+    {
+      "id": 3,
+      "name": "IsIdle",
+      "type": 1,
+      "val": false
+    },
+    {
+      "id": 4,
+      "name": "ReloadLeft",
+      "type": 2,
+      "val": 0
+    },
+    {
+      "id": 5,
+      "name": "ReloadOutof",
+      "type": 2,
+      "val": 0
+    },
+    {
+      "id": 6,
+      "name": "FirstIn",
+      "type": 2,
+      "val": 0
+    }
+  ]
+}
